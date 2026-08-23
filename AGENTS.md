@@ -11,6 +11,11 @@ This document defines the strict constraints and rules that any AI Assistant (LL
 - Each phase directory (`00-ai-literacy/`, `01-ai-assisted-dev/`, etc.) contains experiments, code, and notes.
 - System of notes: Obsidian Flat Zettelkasten.
 
+## 📂 Obsidian Zettelkasten Integration
+- **Vault Absolute Path:** `/home/yordycg/workspace/personal/obsidian-notes`
+- **Strict Search Rule:** When asked to check notes, search and read **exclusively** inside `/home/yordycg/workspace/personal/obsidian-notes`.
+- **FORBIDDEN:** Never run `find` or `grep` across `/home/yordycg` or parent directories. Target the vault path directly.
+
 ---
 
 ## 🚫 Rule 1: Strict No-Spoonfeeding on Core AI Loops
