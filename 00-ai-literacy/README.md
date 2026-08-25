@@ -1,5 +1,5 @@
 # Fase 0 — AI Literacy & Prompt Foundations
-> **Período:** En paralelo a la Fase 1 de Sistemas (S1–S4) · ~1-2h semanales
+> **Período:** Semanas alternadas con la Fase 1 de Sistemas (24–30 ago, 7–13 sep…) · Semana completa dedicada, no horas sueltas
 > **Núcleo:** Entender qué es un LLM bajo el capó, cómo se procesan los tokens, y dominar el prompt engineering estructural sin magia negra.
 
 ---
