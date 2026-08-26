@@ -35,7 +35,7 @@
 | Día | Tema | Recursos | Estado |
 |-----|------|----------|--------|
 | Lun 24 | **Tokens + BPE**: qué es un token, tokenización sub-palabra, por qué falla contando letras | [3Blue1Brown — But what is a GPT?](https://www.youtube.com/watch?v=wjZofJX0v4M) · [OpenAI Tokenizer](https://platform.openai.com/tokenizer) | [x] |
-| Mar 25 | **Context Window + Attention**: ventana de contexto, truncamiento, atención entre tokens | [3Blue1Brown — Attention, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc) · [IBM — What are context windows](https://www.ibm.com/think/topics/context-window) · [OpenAI — text generation](https://platform.openai.com/docs/guides/text-generation) | [ ] |
+| Mar 25 | **Context Window + Attention**: ventana de contexto, truncamiento, atención entre tokens | [3Blue1Brown — Attention, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc) · [IBM — What are context windows](https://www.ibm.com/think/topics/context-window) · [OpenAI — text generation](https://platform.openai.com/docs/guides/text-generation) | [x] |
 | Mié 26 | **Sampling**: temperature, top_p, seed, determinismo vs creatividad | [OpenAI — Sampling](https://platform.openai.com/docs/guides/text-generation) · [Hugging Face — How to generate text](https://huggingface.co/blog/how-to-generate) | [ ] |
 | Jue 27 | **System prompts + Instruction Hierarchy**: separación instrucciones/datos, jerarquía de prioridad | [Anthropic — System prompts](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts) · [OpenAI — Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering) | [ ] |
 | Vie 28 | **Role + Few-shot prompting**: rol, ejemplos, tradeoffs | [promptingguide.ai — Few-shot](https://www.promptingguide.ai/techniques/fewshot) · [promptingguide.ai — Roles](https://www.promptingguide.ai/techniques/roles) | [ ] |
@@ -70,5 +70,6 @@
 ## Session Log
 
 - 2026-08-24 — **Sem 1 Día 1 cerrado.** Tokens + BPE: zettel `AI - Tokens and Byte Pair Encoding.md` creado en Obsidian. Recurso 3Blue1Brown + OpenAI Tokenizer. Modelo de trabajo migrado a **semanas alternadas** con `learning-path` (Sem 1 = AI, Sem 2 = learning-path).
+- 2026-08-25 — **Sem 1 Día 2 cerrado.** Context Window + Attention: zettel `AI - Transformer Context Window and Attention.md` creado en Obsidian. Conceptos clave: exceso de ventana = truncamiento de tokens antiguos (compactación es estrategia de app/agente, no del modelo); atención autorregresiva pondera todos los tokens previos.
 
 - _No sessions recorded yet. Repository initialized._
