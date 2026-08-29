@@ -29,6 +29,34 @@
 
 ---
 
+## Template — Semana tipo
+
+> Copiar/pegar y rellenar al abrir cada nueva semana de AI. Reemplazar `NN` por la fase y `Wk` por la semana.
+
+```
+## Current Week — Fase NN, Sem Wk (fecha–fecha)
+
+> **Objetivo de semana:** <objetivo>. Proyecto <proyecto> → <semana/semana>, no esta semana. Recursos completos en [`NN-phase/README.md`](NN-phase/README.md).
+
+| Día | Tema | Recursos | Estado |
+|-----|------|----------|--------|
+| Lun | <tema> | <recurso · recurso> | [ ] |
+| Mar | <tema> | <recurso · recurso> | [ ] |
+| Mié | <tema> | <recurso · recurso> | [ ] |
+| Jue | <tema> | <recurso · recurso> | [ ] |
+| Vie | <tema> | <recurso · recurso> | [ ] |
+| Sáb | <buffer/refuerzo + práctica> | <recurso> | [ ] |
+| Dom | Zettels + tick semana + plan próxima | Zettels pendientes | [ ] |
+
+- **Blockers:** none
+
+## Zettels de la semana (Obsidian)
+
+- [ ] `AI - <zettel>.md`
+```
+
+---
+
 ## Current Week — Fase 0, Sem 1 (Aug 24–30)
 
 > **Objetivo de semana:** Tokens, BPE, Context Window, Attention, Sampling y Prompting estructural. Proyecto `cli-llm` → **Sem 3 (W2 de IA)**, no esta semana. Recursos completos en [`00-ai-literacy/README.md`](00-ai-literacy/README.md).
@@ -49,11 +77,11 @@
 
 ## Zettels de la semana (Obsidian)
 
-- `AI - Tokens and Byte Pair Encoding.md` (Lun)
-- `AI - Transformer Context Window and Attention.md` (Mar)
-- `AI - Sampling Temperature and Determinism.md` (Mié)
-- `AI - System Prompts and Instruction Hierarchy.md` (Jue)
-- `AI - Few Shot Prompting Tradeoffs.md` (Vie)
+- [x] `AI - Tokens and Byte Pair Encoding.md` (Lun)
+- [x] `AI - Transformer Context Window and Attention.md` (Mar)
+- [x] `AI - Sampling Temperature and Determinism.md` (Mié)
+- [x] `AI - System Prompts and Instruction Hierarchy.md` (Jue)
+- [x] `AI - Few Shot Prompting Tradeoffs.md` (Vie)
 
 ---
 
