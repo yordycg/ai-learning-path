@@ -15,7 +15,7 @@
 | **F4** | Advanced AI Eng | Evaluation-driven dev, LLM-as-a-judge, tracing, security | OpenTelemetry, evaluation suites | ~3 |
 | **F5** | AI Systems Architect | Model routing, multi-agent systems, cost/latency, capstone | Production stack, multi-model orchestration | ~3 |
 
-> Semanas por fase = semanas de calendario de AI (alternando con `learning-path`). F0–F2 fijas según `calendario.md`; F3–F5 estimadas y por confirmar al llegar.
+> Semanas por fase = semanas de trabajo de IA, ejecutadas como **sprint en vacaciones** (desde 23 nov 2026) según [`calendario.md`](calendario.md). F0–F2 fijas; F3–F5 estimadas y por confirmar al llegar.
 
 ---
 
