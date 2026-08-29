@@ -1,28 +1,30 @@
 # Calendario — AI Engineering Learning Path
 
-> **Vista filtrada de las semanas de AI.** La fuente única del ritmo, la regla de alternancia y el modelo de horas es [`learning-path/calendario.md`](../learning-path/calendario.md). Cualquier cambio se hace allí y se propaga aquí.
+> **Modelo estacional (desde 31 ago 2026).** La fuente única del ritmo es [`learning-path/calendario.md`](../learning-path/calendario.md). Este roadmap está **pausado durante el semestre universitario** (31 ago – 22 nov 2026) y se ejecuta como **sprint en las vacaciones** (desde 23 nov 2026).
 
 ## Regla (resumen)
 
-- Semana impar (1, 3, 5…) = **AI** · Semana par (2, 4, 6…) = **learning-path**.
-- **Ancla:** Sem 1 = 24–30 ago 2026 = AI. Detalle completo y modelo de horas en `learning-path/calendario.md`.
+- **Semestre (31 ago – 22 nov):** IA pausada. Fase 0 cerrada (30 ago). El foco es `learning-path` 100%.
+- **Vacaciones (23 nov – ~feb 2027):** sprint IA a ~30–35h/sem.
+- **Ancla:** Semana 4 universitaria = 31 ago 2026. Detalle completo y modelo de horas en `learning-path/calendario.md`.
 
-## Semanas de AI (ago 2026 → …)
+## Sprint de vacaciones (23 nov 2026 – ~feb 2027)
 
-| Semana | Fechas | Fase / contenido |
-|--------|--------|------------------|
-| 1 | 24–30 ago | F0 W1: tokens, BPE, context, sampling, prompting |
-| 3 | 7–13 sep | F0 W2: cli-llm |
-| 5 | 21–27 sep | F1: AI-assisted dev (SDD, TDD, agents) |
-| 7 | 5–11 oct | F1 |
-| 9 | 19–25 oct | F1 |
-| 11 | 2–8 nov | F2: structured outputs, embeddings, pgvector |
-| 13 | 16–22 nov | F2 |
-| 15 | 30 nov – 6 dic | F2 |
-| … | … | alternando |
+> Esqueleto. Se refina al iniciar el sprint (el sprint arrastra fundamentos LP *just-in-time*, marcados en la columna derecha).
+
+| Semana (fecha aprox) | Fase / contenido | Proyecto | Fundamentos LP que arrastra (just-in-time) |
+|----------------------|------------------|----------|---------------------------------------------|
+| S1 | F0 **refresh** (repaso zettels tras pausa) + setup entorno | — | — |
+| S2 | F1: SDD, TDD con agentes, uso crítico OpenCode/Pi | `sdd-executor` | C/ejercicios previos de LP (rework) |
+| S3–4 | F2: structured outputs, embeddings, pgvector, RAG | `doc-rag` | Go básico + PostgreSQL/Docker |
+| S5–6 | F3: agent loops, tool calling, memoria, MCP, skills | `agent-cli` | Redis, concurrencia Go |
+| S7–8 | F4: eval-driven dev, LLM-as-a-judge, tracing, seguridad | `secure-agent-eval` | OpenTelemetry, Prometheus, Docker compose |
+| S9–11 | F5: model routing, caching, multi-agente, cost/latencia | `capstone-ai-platform` | Observabilidad full, Redis cache |
+| S12–13 | Buffer, integración, documentación (C4 / ADRs) | capstone final | — |
 
 ## Estado operativo
 
-- Semana activa: ver [`status.md`](./status.md) (Current Week).
+- **Durante el semestre:** estado activo de estudio = [`learning-path/learning-c/status.md`](../learning-path/learning-c/status.md). Este archivo queda quieto hasta el sprint.
+- **Al iniciar vacaciones:** abrir [`status.md`](./status.md) (Current Week) con el plan de sprint.
 - Detalle de contenido por fase: cada fase tiene su README de recursos (`00-ai-literacy/README.md`, `01-ai-assisted-dev/README.md`, `02-llm-fundamentals/README.md`, …).
 - Índice transversal de recursos externos (ej. `claude-code-ultimate-guide`): [`resources/ultimate-guide-map.md`](./resources/ultimate-guide-map.md).
