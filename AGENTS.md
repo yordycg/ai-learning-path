@@ -16,6 +16,19 @@ This document defines the strict constraints and rules that any AI Assistant (LL
 - **Strict Search Rule:** When asked to check notes, search and read **exclusively** inside `/home/yordycg/workspace/personal/obsidian-notes`.
 - **FORBIDDEN:** Never run `find` or `grep` across `/home/yordycg` or parent directories. Target the vault path directly.
 
+## 🧠 Local Skills — Single Source of Truth
+- **Unique source:** `~/.agents/skills/` (tool-agnostic, read by both opencode and Pi). **No copies are kept inside this repo.**
+- Load the matching skill for its scenario:
+
+| Skill | Cuando usarla |
+|-------|---------------|
+| `status-tracker` | Inicio/cierre de sesión: leer `status.md` + `git log -1`, actualizar semana y session log. |
+| `obsidian-query` | Consultar/leer notas conceptuales en Obsidian (solo dentro del vault). |
+| `socratic-mentor` | Responder dudas o errores de estudio: probe → plan → teach. Nunca respuesta directa. |
+| `code-diagnostic` | Debugging: instruir con herramientas del sistema (`gdb`, `valgrind`, `EXPLAIN ANALYZE`) en lugar de reescribir código. |
+
+> Same convention as `learning-path/AGENTS.md`. Any skill update is done in `~/.agents/skills/`, never duplicated here.
+
 ---
 
 ## 🚫 Rule 1: Strict No-Spoonfeeding on Core AI Loops
