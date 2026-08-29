@@ -25,17 +25,6 @@
 
 ---
 
-## Profundización opcional (NO bloquea la semana)
-
-> Recursos de refuerzo para consumir en tiempo libre o en semanas de `learning-path`. **No son contenido requerido** y no extienden la duración de Fase 0.
-
-| Tema | Recurso | Por qué |
-|------|---------|---------|
-| **Transformer desde cero** | [Andrej Karpathy — Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY) | Implementar el transformer a mano conecta tokens → embedding → atención → sampling con el código de `cli-llm`. |
-| **Atención visualizada** | [Jay Alammar — The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) | Complementa a 3Blue1Brown con visualizaciones de self-attention y arquitectura completa. |
-
----
-
 ## Zettels Atómicos a Crear en Obsidian (Fase 0)
 
 ```
