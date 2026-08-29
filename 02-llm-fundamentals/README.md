@@ -19,8 +19,12 @@
 | Tema | Recurso / Referencia | Tipo |
 |------|----------------------|------|
 | **pgvector** | [github.com/pgvector/pgvector](https://github.com/pgvector/pgvector) | Documentación oficial |
-| **Embeddings & RAG** | Pinecone Learning Center / Anthropic RAG Guide | Artículos técnicos |
-| **JSON Mode / Structured Outputs** | OpenRouter / OpenAI API Structured Outputs docs | Documentación oficial |
+| **Embeddings intro** | [Pinecone Learning Center — What are embeddings](https://www.pinecone.io/learn/series/faiss/embeddings/) | Artículo técnico |
+| **RAG intro** | [Anthropic — Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) · [Anthropic — Context engineering](https://www.anthropic.com/engineering/context-engineering) | Artículos técnicos |
+| **Chunking strategies** | [Pinecone — Chunking strategies for LLM apps](https://www.pinecone.io/learn/chunking-strategies/) | Guía práctica |
+| **Indexes HNSW / IVFFlat** | [Timescale — Pgvector: HNSW vs IVFFlat](https://www.timescale.com/learn/pgvector-hnsw-vs-ivfflat) | Guía práctica |
+| **Búsqueda híbrida (BM25 + dense)** | [Weaviate — Hybrid search explained](https://weaviate.io/blog/hybrid-search-explained) | Artículo técnico |
+| **Structured Outputs** | [OpenAI — Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs) · [OpenRouter — API docs](https://openrouter.ai/docs) | Documentación oficial |
 
 ---
 
