@@ -19,6 +19,10 @@
 |------|----------------------|------|
 | **Production LLM Architectures** | ByteByteGo & AI Engineering Academy articles | Arquitectura de sistemas |
 | **OpenRouter / Multi-model routing** | OpenRouter routing strategies & fallback documentation | Documentación oficial |
+| **Multi-agente (Agent Teams)** | [claude-code-ultimate-guide — Agent Teams Workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/workflows/agent-teams.md) (3 topologías, worktrees, coordinación multi-agente) | Workflow guiado |
+| **Model routing y costos** | [claude-code-ultimate-guide — Cost & Model Optimization](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/diagrams/09-cost-and-optimization.md) (árbol de selección de modelo, token reduction pipeline) | Diagrama + guía |
+| **Cuándo usar qué (y cuándo NO usar IA)** | [claude-code-ultimate-guide — When to use what](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/ultimate-guide.md#when-to-use-what) (agentes vs skills vs comandos; decisión de arquitectura) | Marco de decisión |
+| **Navegación completa del repo** | [`resources/ultimate-guide-map.md`](../resources/ultimate-guide-map.md) | Índice local |
 
 ---
 

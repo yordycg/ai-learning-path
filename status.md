@@ -25,6 +25,7 @@
 - Al terminar la semana: las filas se archivan en el *Session log* y se abre la siguiente con su plan.
 - **Concept-first:** cada semana se abre con día(s) de concepto antes de cualquier práctica. Todo concepto nuevo se investiga y se le asigna recurso antes de tocar código (nada se da por hecho).
 - **Contrato diario de respuesta (obligatorio para la IA):** al pedir "¿qué toca hoy?", la respuesta **siempre** incluye: (1) archivos/directorios a crear con ruta exacta, (2) notas `.md` a crear con su nombre exacto, (3) recursos con **nombre + link**, y (4) zettels de Obsidian con nombre.
+- **Fuente de recursos:** los recursos de cada fase viven en su README (`00-ai-literacy/README.md`, `01-ai-assisted-dev/README.md`, `02-llm-fundamentals/README.md`, …). El índice transversal de recursos externos (ej. `claude-code-ultimate-guide`) es [`resources/ultimate-guide-map.md`](resources/ultimate-guide-map.md).
 
 ---
 

@@ -28,4 +28,5 @@
 ## Estado operativo
 
 - Semana activa: ver [`status.md`](./status.md) (Current Week).
-- Detalle de contenido de Fase 0: [`00-ai-literacy/README.md`](./00-ai-literacy/README.md).
+- Detalle de contenido por fase: cada fase tiene su README de recursos (`00-ai-literacy/README.md`, `01-ai-assisted-dev/README.md`, `02-llm-fundamentals/README.md`, …).
+- Índice transversal de recursos externos (ej. `claude-code-ultimate-guide`): [`resources/ultimate-guide-map.md`](./resources/ultimate-guide-map.md).

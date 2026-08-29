@@ -20,6 +20,13 @@
 | **Spec-Driven Development** | Documentación interna de proyectos y flujos SDD en tu chezmoi (`scripts/templates/project-base/docs/`) | Estándar local |
 | **Pi Coding Agent** | Repositorio oficial y docs de `@earendil-works/pi-coding-agent` (instalado vía tus dotfiles) | Herramienta CLI |
 | **OpenCode** | Configuración y uso de agentes autónomos de terminal | Herramienta CLI |
+| **Metodologías (SDD/TDD/BDD)** | [claude-code-ultimate-guide — Methodologies Reference](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/core/methodologies.md) (árbol de decisión + 15 metodologías; combo recomendado solo-dev: **SDD + TDD**) | Artículo técnico |
+| **TDD con agentes** | [claude-code-ultimate-guide — TDD Workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/workflows/tdd-with-claude.md) (Red-Green-Refactor + loops de verificación) | Workflow guiado |
+| **Spec-First** | [claude-code-ultimate-guide — Spec-First Workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/workflows/spec-first.md) (spec antes de código) | Workflow guiado |
+| **Escribir buenas specs** | [claude-code-ultimate-guide — Writing Effective Specs](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/core/methodologies.md#writing-effective-specs) (6 componentes esenciales + permission tiers) → recurso directo para `sdd-executor` | Guía práctica |
+| **Aprender con IA sin dependencia** | [claude-code-ultimate-guide — Learning with AI](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/roles/learning-with-ai.md) | Guía práctica |
+| **Golden Rules** | [claude-code-ultimate-guide — Golden Rules](https://github.com/FlorianBruniaux/claude-code-ultimate-guide#-golden-rules) (verifica antes de confiar · nunca apruebes MCPs desconocidos · presión de contexto 70/85/90%) | Principios |
+| **Navegación completa del repo** | [`resources/ultimate-guide-map.md`](../resources/ultimate-guide-map.md) | Índice local |
 
 ---
 
