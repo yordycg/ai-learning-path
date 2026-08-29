@@ -2,24 +2,16 @@
 
 > Operational state and synchronization tracker. Updated at the end of each session.
 
-## Modelo de alternancia (a partir de ago 24)
+## Modelo estacional (a partir de ago 31)
 
-> Los dos roadmaps se dedican **semanas completas alternadas** (lunes → domingo), no en paralelo.
-> - **Sem 1 (24–30 ago): AI** · Sem 2 (31 ago – 6 sep): learning-path · Sem 3 (7–13 sep): AI · Sem 4 (14–20 sep): learning-path · … (alternando)
-
-| Semana | Fechas | Roadmap activo |
-|--------|--------|----------------|
-| Sem 1 | 24–30 ago | **AI** (Fase 0) |
-| Sem 2 | 31 ago – 6 sep | Learning-path (S3) |
-| Sem 3 | 7–13 sep | AI (Fase 0 W2) |
-| Sem 4 | 14–20 sep | Learning-path (S4) |
-| Sem 5 | 21–27 sep | AI (Fase 1) |
-| ... | ... | alternando |
-
----
+> Los dos roadmaps operan en **bloques estacionales**, no en paralelo ni alternados.
+> - **Semestre (31 ago – 22 nov 2026):** solo `learning-path` (**LP 100%**). Este roadmap queda **pausado** — Fase 0 cerrada el 30 ago.
+> - **Vacaciones (desde 23 nov 2026):** sprint de IA a ~30–35h/sem. Detalle en [`calendario.md`](calendario.md).
 
 ## Cómo operar este archivo
 
+- **Durante el semestre:** este archivo está quieto. El estado activo de estudio es [`learning-path/learning-c/status.md`](../learning-path/learning-c/status.md).
+- **Al iniciar vacaciones:** activar aquí el plan de sprint (ver `calendario.md` → Sprint de vacaciones) y abrir la primera `Current Week`.
 - Cada día preguntas "¿qué toca hoy?" → se responde con la fila de hoy de *Current Week* + sus recursos.
 - Al cierre de sesión: marcar `[ ]` → `[x]` en la fila del día y añadir entrada al *Session log*.
 - Al terminar la semana: las filas se archivan en el *Session log* y se abre la siguiente con su plan.
@@ -59,7 +51,7 @@
 
 ## Current Week — Fase 0, Sem 1 (Aug 24–30)
 
-> **Objetivo de semana:** Tokens, BPE, Context Window, Attention, Sampling y Prompting estructural. Proyecto `cli-llm` → **Sem 3 (W2 de IA)**, no esta semana. Recursos completos en [`00-ai-literacy/README.md`](00-ai-literacy/README.md).
+> **Objetivo de semana:** Tokens, BPE, Context Window, Attention, Sampling y Prompting estructural. Proyecto `cli-llm` → **sprint de vacaciones (S1, desde 23 nov)**, no esta semana. Recursos completos en [`00-ai-literacy/README.md`](00-ai-literacy/README.md).
 
 | Día | Tema | Recursos | Estado |
 |-----|------|----------|--------|
@@ -85,14 +77,18 @@
 
 ---
 
-## Synchronization Matrix (`learning-path` ⇄ `ai-learning-path`)
+## Prerrequisitos entre roadmaps (`learning-path` → IA)
 
-> Modelo actualizado a **alternancia semanal** (ago 2026). Antes corría en paralelo; ahora cada roadmap tiene semanas dedicadas completas.
+> Por qué IA F2+ espera a las vacaciones: cada fase avanzada de IA necesita fundamentos de LP que el semestre construye. El sprint de vacaciones arrastra estos trozos just-in-time.
 
-- **Phase 0 (AI Literacy):** Sem 1, 3, 5… — alterna con `learning-path` S3, S4, S5…
-- **Phase 1 & 2 (AI-Assisted Dev & RAG):** alterna con `learning-path` Phase 2 (Go, Python, PostgreSQL + `pgvector`).
-- **Phase 3 (Agentic Systems & MCP):** alterna con `learning-path` Phase 3 (Distributed systems, Redis, services).
-- **Phase 4 & 5 (Evaluation & Production):** alterna con `learning-path` Phase 4 & 5 (Data Engineering, System Design).
+| Fase IA | Prerrequisito de `learning-path` |
+|---------|----------------------------------|
+| **F0** (cerrada) | Ninguno — independiente |
+| **F1** (SDD/TDD con agentes) | Ninguno — independiente |
+| **F2** (RAG / pgvector) | LP F2: Go + PostgreSQL |
+| **F3** (agentes / MCP / memoria) | LP F3: Redis, concurrencia Go |
+| **F4** (eval / observabilidad / seguridad) | LP F3: OpenTelemetry, Prometheus, Docker compose |
+| **F5** (producción / multi-agente) | LP F3: observabilidad full, Redis caching |
 
 ---
 
@@ -104,3 +100,4 @@
 - 2026-08-26 — **Sem 1 Día 3 cerrado.** Sampling: zettel `AI - Sampling Temperature and Determinism.md` creado en Obsidian (`000 Zettelkasten/`). Conceptos clave: `temperature` (escalado de logits y aplanamiento/pronunciación de la distribución de probabilidad), `top_p` (muestreo de núcleo / *nucleus sampling*), `seed` (control del pseudo-azar para determinismo).
 - 2026-08-27 — **Sem 1 Día 4 cerrado.** System prompts + Instruction Hierarchy: zettel `AI - System Prompts and Instruction Hierarchy.md` creado en Obsidian. Conceptos clave: `System Prompt` (marco de control inmutable), `User Prompt` (datos dentro del marco), `Prompt Injection` (ataques de anulación), e `Instruction Hierarchy` (el principio de diseño/entrenamiento para forzar la prioridad de las reglas del desarrollador frente a inyecciones). El diagrama Mermaid explica visualmente la separación de flujo y el aislamiento de datos.
 - 2026-08-28 — **Sem 1 Día 5 cerrado.** Role + Few-shot prompting: zettel `AI - Few Shot Prompting Tradeoffs.md` creado en Obsidian (`000 Zettelkasten/`). Conceptos clave: Role Prompting (marco, tono e identidad), Few-Shot Prompting (pares input/output para guiado de formato), tradeoffs (consumo de tokens, latencia, sesgo de recencia/clase y sobreajuste). Incluye diagrama Mermaid con ciclo de evaluación y ajuste de prompt.
+- 2026-08-29 — **Cambio de modelo: alternancia semanal → estacional.** Tras analizar tamaños (IA ≈ 370–400h, LP ≈ 1.800–2.000h) y la ventana real (12 semanas de semestre + ≥3 meses de vacaciones), se decide: **semestre = LP 100%** (31 ago – 22 nov), **vacaciones = sprint IA** a 30–35h/sem (desde 23 nov) con fundamentos LP just-in-time. Fase 0 cerrada el 30 ago; `cli-llm` pasa al S1 del sprint. Se elimina el hilo F1 propuesto; IA queda pausada hasta las vacaciones. Ref: `calendario.md` y prerrequisitos arriba.
