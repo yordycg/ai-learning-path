@@ -2,7 +2,7 @@
 
 This repository serves as a personal sandbox and centralized codebase for my journey from Systems & Data Engineering student to **AI Systems Architect / Advanced AI Engineer**.
 
-It operates in parallel with my main infrastructure & backend path located at [`/home/yordycg/workspace/personal/learning-path`](../learning-path).
+It operates in **seasonal blocks** with my main infrastructure & backend path located at [`/home/yordycg/workspace/personal/learning-path`](../learning-path): **semester = learning-path 100%**, **vacations = AI sprint** (see [`calendario.md`](./calendario.md)).
 
 ---
 
@@ -32,6 +32,6 @@ It operates in parallel with my main infrastructure & backend path located at [`
 ## Core Principles
 
 1. **Foundations First:** Never rely on "magic" frameworks before understanding the underlying loop, prompt structure, or protocol.
-2. **Parallel Synchronization:** Progress in this repository is synchronized operationally with your systems learning path via `status.md`.
+2. **Seasonal Synchronization:** Progress in this repository is synchronized operationally with your systems learning path via `status.md` — LP during the semester, AI sprint during vacations.
 3. **Evaluation & Verification:** Every agentic system or RAG pipeline must be tested and evaluated quantitatively, never assumed to work.
 4. **Security by Default:** Least privilege, sandboxing, and approval loops from the moment tools gain execution capabilities.
