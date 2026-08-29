@@ -6,14 +6,16 @@
 
 ## Vista General de las Fases
 
-| Fase | Nivel | Foco Principal | Stack / Herramientas |
-|------|-------|----------------|----------------------|
-| **F0** | AI Literacy | Tokens, context windows, prompting, APIs | Python base, OpenRouter |
-| **F1** | AI-Assisted Dev | Spec-Driven Development (SDD), TDD, AI Coding Agents | OpenCode, Pi, Git, Neovim |
-| **F2** | AI Application Dev | Structured outputs, embeddings, pgvector RAG | Python/Go, PostgreSQL (`pgvector`) |
-| **F3** | AI Engineer (Agents) | Agent loops, tool calling, memory, MCP, skills | Python/Go, Redis, MCP protocol |
-| **F4** | Advanced AI Eng | Evaluation-driven dev, LLM-as-a-judge, tracing, security | OpenTelemetry, evaluation suites |
-| **F5** | AI Systems Architect | Model routing, multi-agent systems, cost/latency, capstone | Production stack, multi-model orchestration |
+| Fase | Nivel | Foco Principal | Stack / Herramientas | Semanas AI |
+|------|-------|----------------|----------------------|-----------|
+| **F0** | AI Literacy | Tokens, context windows, prompting, APIs | Python base, OpenRouter | 2 |
+| **F1** | AI-Assisted Dev | Spec-Driven Development (SDD), TDD, AI Coding Agents | OpenCode, Pi, Git, Neovim | 3 |
+| **F2** | AI Application Dev | Structured outputs, embeddings, pgvector RAG | Python/Go, PostgreSQL (`pgvector`) | 3 |
+| **F3** | AI Engineer (Agents) | Agent loops, tool calling, memory, MCP, skills | Python/Go, Redis, MCP protocol | ~3 |
+| **F4** | Advanced AI Eng | Evaluation-driven dev, LLM-as-a-judge, tracing, security | OpenTelemetry, evaluation suites | ~3 |
+| **F5** | AI Systems Architect | Model routing, multi-agent systems, cost/latency, capstone | Production stack, multi-model orchestration | ~3 |
+
+> Semanas por fase = semanas de calendario de AI (alternando con `learning-path`). F0–F2 fijas según `calendario.md`; F3–F5 estimadas y por confirmar al llegar.
 
 ---
 
