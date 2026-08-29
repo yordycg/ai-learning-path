@@ -1,11 +1,11 @@
 # Calendario — AI Engineering Learning Path
 
-> **Este roadmap alterna semanas completas con el learning-path de sistemas.** Semana impar = AI, semana par = systems. La **fuente única** del ritmo y la regla de alternancia es [`learning-path/calendario.md`](../learning-path/calendario.md).
+> **Vista filtrada de las semanas de AI.** La fuente única del ritmo, la regla de alternancia y el modelo de horas es [`learning-path/calendario.md`](../learning-path/calendario.md). Cualquier cambio se hace allí y se propaga aquí.
 
-## Regla
+## Regla (resumen)
 
 - Semana impar (1, 3, 5…) = **AI** · Semana par (2, 4, 6…) = **learning-path**.
-- **Ancla:** Sem 1 = 24–30 ago 2026 = AI.
+- **Ancla:** Sem 1 = 24–30 ago 2026 = AI. Detalle completo y modelo de horas en `learning-path/calendario.md`.
 
 ## Semanas de AI (ago 2026 → …)
 
@@ -20,10 +20,6 @@
 | 13 | 16–22 nov | F2 |
 | 15 | 30 nov – 6 dic | F2 |
 | … | … | alternando |
-
-## Modelo de horas diarias
-
-> Mismo modelo que el learning-path (ver `learning-path/calendario.md`): **Lun/Sáb/Dom 4h + Mar–Vie 2h = 20h/semana**. Con 20h/sem + alternancia, el calendario total se estira ~2.5x respecto a un plan paralelo de 18 meses (~3.7 años). Las vacaciones con más horas lo comprimen.
 
 ## Estado operativo
 
